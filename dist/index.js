@@ -66,7 +66,7 @@ var StandaloneComments_default = ((opts) => {
             "div",
             {
               id: "comments-container",
-              "data-api-url": `${backendUrl}/api.php`,
+              "data-api-url": `${backendUrl}/api`,
               "data-page-url": pageId
             }
           )
@@ -99,7 +99,7 @@ var StandaloneComments_default = ((opts) => {
           try {
             let lang = 'en';
             try {
-              const configRes = await fetch(backendUrl + '/api.php?action=widget_config');
+              const configRes = await fetch(backendUrl + '/api?action=widget_config');
               if (configRes.ok) {
                 const config = await configRes.json();
                 if (config.language) lang = config.language;
@@ -127,7 +127,7 @@ var StandaloneComments_default = ((opts) => {
               if (titleEl) titleEl.textContent = t.title;
             }
 
-            const response = await fetch(backendUrl + '/api.php?action=recent&limit=' + limit);
+            const response = await fetch(backendUrl + '/api?action=recent&limit=' + limit);
             if (!response.ok) throw new Error('Network error');
             const data = await response.json();
             
