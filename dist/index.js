@@ -172,5 +172,3 @@ var StandaloneComments_default = ((opts) => {
 });
 
 export { StandaloneComments_default as StandaloneComments };
-//# sourceMappingURL=index.js.map
-//# sourceMappingURL=index.js.map
