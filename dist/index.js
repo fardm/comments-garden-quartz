@@ -27,8 +27,8 @@ function u2(e2, t2, n2, o2, i2, u3) {
   return l.vnode && l.vnode(l2), l2;
 }
 
-// src/components/StandaloneComments.tsx
-var StandaloneComments_default = ((opts) => {
+// src/components/CommentsGarden.tsx
+var CommentsGarden_default = ((opts) => {
   const backendUrl = opts?.backendUrl ?? "/comments";
   const type = opts?.type ?? "full";
   const title = opts?.title ?? "";
@@ -171,4 +171,4 @@ var StandaloneComments_default = ((opts) => {
   return Component;
 });
 
-export { StandaloneComments_default as StandaloneComments };
+export { CommentsGarden_default as CommentsGarden };

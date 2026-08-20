@@ -30,7 +30,7 @@ interface ExampleEmitterOptions {
     /** Add a custom class to the emitted manifest <script> tag if used in HTML. */
     manifestScriptClass?: string;
 }
-interface StandaloneCommentsOptions {
+interface CommentsGardenOptions {
     /** Text to prefix before the title */
     prefix?: string;
     /** Text to suffix after the title */
@@ -39,4 +39,4 @@ interface StandaloneCommentsOptions {
     className?: string;
 }
 
-export type { ExampleEmitterOptions, ExampleFilterOptions, ExampleTransformerOptions, StandaloneCommentsOptions };
+export type { CommentsGardenOptions, ExampleEmitterOptions, ExampleFilterOptions, ExampleTransformerOptions };

@@ -5,14 +5,14 @@ import type {
 } from "@quartz-community/types";
 import { classNames } from "../util/lang";
 
-export interface StandaloneCommentsOptions {
+export interface CommentsGardenOptions {
   backendUrl?: string;
   type?: "full" | "recent";
   title?: string;
   limit?: number;
 }
 
-export default ((opts?: StandaloneCommentsOptions) => {
+export default ((opts?: CommentsGardenOptions) => {
   const backendUrl = opts?.backendUrl ?? "/comments";
   const type = opts?.type ?? "full";
   const title = opts?.title ?? "";
@@ -160,4 +160,4 @@ export default ((opts?: StandaloneCommentsOptions) => {
   `;
 
   return Component;
-}) satisfies QuartzComponentConstructor<StandaloneCommentsOptions>;
+}) satisfies QuartzComponentConstructor<CommentsGardenOptions>;

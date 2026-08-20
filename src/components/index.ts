@@ -1,2 +1,2 @@
-export { default as StandaloneComments } from "./StandaloneComments";
-export type { StandaloneCommentsOptions } from "./StandaloneComments";
+export { default as CommentsGarden } from "./CommentsGarden";
+export type { CommentsGardenOptions } from "./CommentsGarden";

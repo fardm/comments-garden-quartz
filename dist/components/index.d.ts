@@ -1,2 +1,2 @@
-export { StandaloneComments, StandaloneCommentsOptions } from '../index.js';
+export { CommentsGarden, CommentsGardenOptions } from '../index.js';
 import '@quartz-community/types';

@@ -1,8 +1,8 @@
 // فقط کامپوننت کامنت صادر می‌شود تا هیچ تداخلی با پلاگین‌های دیگر ایجاد نشود
-export { default as StandaloneComments } from "./components/StandaloneComments";
+export { default as CommentsGarden } from "./components/CommentsGarden";
 
 // صادر کردن تایپ آپشن‌های کامپوننت شما
-export type { StandaloneCommentsOptions } from "./components/StandaloneComments";
+export type { CommentsGardenOptions } from "./components/CommentsGarden";
 
 // Re-export shared types from @quartz-community/types
 export type {
