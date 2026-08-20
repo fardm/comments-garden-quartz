@@ -1,14 +1,14 @@
 {
-  "name": "quartz-comments-garden",
+  "name": "comments-garden-quartz",
   "version": "0.1.0",
   "description": "A standalone comment manager tool for use on static websites, with no external dependencies. PHP and SQLite, self-contained in one folder.",
   "type": "module",
   "license": "MIT",
   "author": "fardm",
-  "homepage": "https://github.com/fardm/quartz-comments-garden",
+  "homepage": "https://github.com/fardm/comments-garden-quartz",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fardm/quartz-comments-garden.git"
+    "url": "https://github.com/fardm/comments-garden-quartz.git"
   },
   "keywords": [
     "quartz",
@@ -94,7 +94,7 @@
     "vitest": "^2.1.9"
   },
   "quartz": {
-    "name": "quartz-comments-garden",
+    "name": "comments-garden-quartz",
     "displayName": "Comments Garden",
     "category": "component",
     "version": "1.0.0",

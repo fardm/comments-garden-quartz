@@ -16,12 +16,12 @@ After deployment, you will have a Worker URL similar to:
 
 Inside your Quartz project, run:
 
-`npx quartz plugin add github:fardm/quartz-comments-garden`
+`npx quartz plugin add github:fardm/comments-garden-quartz`
 
 Then open quartz.config.yaml to review the plugin configuration:
 
 ```yaml
-- source: github:fardm/quartz-comments-garden
+- source: github:fardm/comments-garden-quartz
   enabled: true
   options:
     backendUrl: https://comments-garden.<your-username>.workers.dev
@@ -48,7 +48,7 @@ Comments Garden also provides a **Recent Comments** widget that can be displayed
 Add another instance of the plugin to your `quartz.config.ts`:
 
 ```yaml
-- source: github:fardm/quartz-comments-garden
+- source: github:fardm/comments-garden-quartz
   enabled: true
   options:
     backendUrl: https://comments-garden.<your-username>.workers.dev
